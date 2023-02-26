@@ -13,15 +13,12 @@ html, body {
   
 }
 
-.header {
-  font-family: verdana;
-  text-align: center;
-}
 
 .section {
-  padding: 2rem 10rem;
+  Margin: auto;
   align-content: center;
   justify-content: space-evenly;
+  width: 80%;
 }
 
 .student_img {
@@ -33,7 +30,7 @@ html, body {
 
 .assigmnents {
   color:#363636;
-  background-color: #b6b63e;
+  background-color: #c8c865;
   padding: 2rem 10rem;
 }
 
@@ -47,10 +44,32 @@ button {
 }
 
 button:hover {
-  background-image: linear-gradient(green, #02085f);
+  background-image: linear-gradient(darkred, #02085f);
 }
+
+/* Headings */
+.header {
+  font-family: verdana;
+  font-size: 2.5rem;
+  color: white;
+  text-align: center;
+  margin: 1em 0;
+  
+}
+
+
 
 .main_task {
   font-family: verdana;
   font-weight: bolder;
+}
+
+.new_task {
+  font-family: verdana;
+  font-weight: bolder;
+  font-size: 3.5rem;
+}
+
+span {
+  color: darkred;
 }
