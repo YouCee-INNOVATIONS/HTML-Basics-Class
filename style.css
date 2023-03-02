@@ -13,8 +13,12 @@ html, body {
   
 }
 
-
 .section {
+  margin: 2rem 0;
+  
+}
+
+.sub_section {
   Margin: auto;
   align-content: center;
   justify-content: space-evenly;
@@ -43,18 +47,43 @@ button {
   background-image: linear-gradient(#ae00ff, #02085f); 
 }
 
+.current_button {
+  padding: 0.5rem 1rem;
+  margin: 1rem 0rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: white;
+  background-image: linear-gradient(green, #02085f); 
+}
+
 button:hover {
   background-image: linear-gradient(darkred, #02085f);
+}
+
+/* Tables */
+table {
+  margin: auto;
+  width: 80%;
+  
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
 }
 
 /* Headings */
 .header {
   font-family: verdana;
   font-size: 2.5rem;
-  color: white;
   text-align: center;
   margin: 1em 0;
-  
+}
+
+header, h1 {
+  color: white;
 }
 
 
